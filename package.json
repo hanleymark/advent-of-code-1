@@ -1,0 +1,18 @@
+{
+  "name": "advent-of-code-2023",
+  "version": "1.0.0",
+  "description": "Advent of Code 2023",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"test\": \"jest day-*/**/test.js\"",
+    "lint": "eslint day-*/**/*.js",
+    "lint:fix": "eslint --fix day-*/**/*.js",
+    "start:today": "node day-$(date +%d)/index.js"
+  },
+  "author": "Mark Hanley <home@markhanley.co.uk>",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.55.0",
+    "mocha": "^10.2.0"
+  }
+}
