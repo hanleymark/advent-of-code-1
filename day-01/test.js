@@ -14,4 +14,7 @@ describe('Day 1: It should get the first and last digits from a string and make 
     assert.strictEqual(solution('3onehdhcknine'), 39);
     assert.strictEqual(solution('eight5gckh3jdnine'), 89);
   });
+  it('should convert words to digits and get the correct total when words intersect', () => {
+    assert.strictEqual(solution('frdseightwopm'), 82);
+  });
 });
