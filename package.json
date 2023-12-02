@@ -4,10 +4,10 @@
   "description": "Advent of Code 2023",
   "main": "index.js",
   "scripts": {
-    "test": "\"test\": \"jest day-*/**/test.js\"",
+    "test": "mocha day-*/**/test.js",
     "lint": "eslint day-*/**/*.js",
     "lint:fix": "eslint --fix day-*/**/*.js",
-    "start:today": "node day-$(date +%d)/index.js"
+    "start": "node index.js 01 2"
   },
   "author": "Mark Hanley <home@markhanley.co.uk>",
   "license": "ISC",
