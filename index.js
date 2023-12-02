@@ -1,8 +1,15 @@
 const fs = require('fs');
-const solution2 = require('./solution2');
+console.log('Advent of Code 2023');
+console.log('===================\n');
+const args = process.argv.slice(2);
+const day = args[0];
+const part = args[1];
+console.log(`Running day ${day} part ${part}`);
 
-const input = fs.readFileSync('input.txt', 'utf8');
+const solution = require(`./day-${day}/part${part}`);
 
-const answer = solution2(input);
+const input = fs.readFileSync(`./day-${day}/input.txt`, 'utf8');
+
+const answer = solution(input);
 
 console.log(`The solution is ${answer}`);
