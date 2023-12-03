@@ -7,7 +7,7 @@
     "test": "mocha day-*/**/test.js",
     "lint": "eslint day-*/**/*.js",
     "lint:fix": "eslint --fix day-*/**/*.js",
-    "start": "node index.js 02 2"
+    "start": "node index.js 01 1"
   },
   "author": "Mark Hanley <home@markhanley.co.uk>",
   "license": "ISC",
